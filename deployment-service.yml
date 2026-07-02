@@ -28,7 +28,7 @@ spec:
   selector:
     app: tetris
   ports:
-  - protocol: TCP
+  #- protocol: TCP
     port: 80                 # Expose port 80
     targetPort: 80
   type: LoadBalancer
